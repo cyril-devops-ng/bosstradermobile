@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="images/logo/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/logo/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/logo/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/logo/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/logo/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/logo/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/logo/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/logo/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/logo/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/logo/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="images/logo/favicon.ico" type="image/x-icon" /> 
+    
+    
+<title>BossTrader - Sales</title>
+
+<link href="styles/style.css"           rel="stylesheet" type="text/css">
+<link href="styles/framework.css"       rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"    rel="stylesheet" type="text/css">
+<link href="styles/animate.css"         rel="stylesheet" type="text/css">
+<link href="styles/jquery-ui.css"         rel="stylesheet" type="text/css">
+
+
+
+</head>
+
+<body class="left-sidebar"> 
+    
+<div class="page-preloader">
+    <img class="page-preload" src="images/preload.gif">
+</div>
+    
+<div id="preloader">
+	<div id="status">
+        <div class="preloader-logo"></div>
+        <h3 class="center-text">Welcome</h3>
+        <p class="center-text smaller-text">
+            We're loading the content, give us a second. This won't take long!
+        </p>
+    </div>
+</div>
+    
+<div class="gallery-fix"></div> <!-- Important for all pages that have galleries or portfolios -->
+    
+<div class="all-elements" id="main">
+    
+    <div id="header-fixed">
+        <div class="header-elements">
+            <a class="open-left-sidebar" href="#"><i class="fa fa-navicon"></i></a>
+            <a class="open-submenu" href="#"><i class="fa fa-angle-down"></i></a>
+            <a class="open-contact" href="#" id="logout"><i class="fa fa-lock"></i></a>
+            <a class="open-submenu" href="#"><i class="fa fa-angle-down"></i></a>
+            <a class="header-logo" href="home"><img src="images/logo_main.png" alt="img"></a>
+        </div>
+        <div class="page-navigation">
+            
+        </div>        
+    </div>   
+
+            
+    <div class="snap-drawers">
+        <div class="snap-drawer snap-drawer-left">        
+            <a href="home.html" class="sidebar-logo">
+                BossTrader
+            </a>            
+            <div class="sidebar-deco"></div>
+            <a href="home.html" class="active-menu-item">
+                <i class="fa fa-home"></i>
+                <em>Dashboard</em>
+            </a>
+            <div class="sidebar-deco"></div>
+            <a href="sales.html" class="menu-item">
+                <i class="fa fa-star-o"></i>
+                <em>Sales</em>
+            </a>
+            <div class="sidebar-deco"></div>            
+            <a href="stocklist.html" class="menu-item">
+                <i class="fa fa-mobile"></i>
+                <em>Stock List</em>
+            </a>            
+            <div class="sidebar-deco"></div>            
+            <a href="payment.html" class="menu-item">
+                <i class="fa fa-pencil"></i>
+                <em>Payment</em>
+            </a>
+            <div class="sidebar-deco"></div>            
+            <a href="notification.html" class="menu-item">
+                <i class="fa fa-envelope-o"></i>
+                <em>Notification</em>
+            </a>
+            <div class="sidebar-deco"></div> 
+        </div>
+                
+        <div id="content" class="snap-content">
+            <div class="content">    
+                
+            <!--Page content goes here, fixed elements go above the all elements class-->
+                
+            <div class="decoration"></div>
+            <div class="decoration"></div>
+            <div class="decoration"></div>
+                
+            <!-- Content Heding -->
+            
+            <!-- Content Heding -->
+            
+
+            <!-- Page Content-->
+            <div class="container-fullscreen heading-style-3 bg-3">
+                        <h3 class="heading-title">Sales</h3>
+                        <em class="heading-subtitle">Keep history of your sales</em>
+                        <div class="overlay bg-black"></div>
+                    </div>
+            <div class="container heading-style-5">
+                    <h4 class="heading-title">Sales</h4>
+                    <i class="fa fa-bell-o heading-icon"></i>
+                    <div class="line bg-black"></div>
+                    <p class="heading-subtitle">
+                       Shows a list of all sales made
+                    </p>
+                </div>
+                <input id='salesdatetimepicker' class="text-field green-field form-control" onfocus="if (this.value=='Set a Date') this.value = ''" onblur="if (this.value=='') this.value = 'Set a Date'" type="text"  value="Set a Date">
+                        
+                <a href="#"  id="setNotification" class="button button-green green-field" style='width:100%;text-align:center;'>Search</a>
+              <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Item sold</th><th>Qty</th><th>Price</th>
+                        </tr>
+                    </thead>  
+                    <tbody id='allsales'>
+                        
+                    </tbody>
+                 </table>              
+            <!-- End of entire page content-->
+            </div> 
+            
+                <div class="decoration"></div>
+                
+        </div>
+    </div>  
+    <a href="#" class="back-to-top-badge"><i class="fa fa-caret-up"></i>Back to top</a>
+</div>
+    
+ 
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jquerySmooth.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework-plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type='text/javascript'>
+    
+</script>
+
+</body>
